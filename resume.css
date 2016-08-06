@@ -1,0 +1,56 @@
+
+html {
+	
+}
+
+body {
+	font-family: Garamond, serif;
+	font-size: 14px;
+	color: black;
+	background: white;
+	margin: 20px;
+	padding: 0;
+}
+
+p { 
+	line-height: 21 px;
+}
+
+h1{
+	font-size: 2em;
+	font-family: Helvetica, sans-serif;
+	color: black;
+}
+
+h2{
+	font-size: 1.5em;
+	font-family: Helvetica, sans-serif;
+	color: black;
+}
+
+h3{
+	font-size: 1.3em;
+	color: black;
+}
+
+h4{
+	font-size: 1em;
+	color: black;
+}
+
+#basic_info {
+	padding: 10px;
+	margin: 20px;
+}
+
+#education {
+
+}
+
+#work_experience {
+
+}
+
+#extracurriculars {
+
+}
