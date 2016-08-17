@@ -1,56 +1,66 @@
 
-html {
-	
-}
-
 body {
-	font-family: Garamond, serif;
-	font-size: 14px;
+	font-size: 12px;
+	font-family: monospace, serif;
 	color: black;
 	background: white;
-	margin: 20px;
 	padding: 0;
 }
 
-p { 
-	line-height: 21 px;
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica, sans-serif;
+	color: black;
+	font-weight : bold;
+	margin : 5px 0 5px 0;
 }
 
 h1{
 	font-size: 2em;
-	font-family: Helvetica, sans-serif;
-	color: black;
+	margin : 2em;
 }
 
 h2{
 	font-size: 1.5em;
-	font-family: Helvetica, sans-serif;
-	color: black;
+	text-align :center;
 }
 
 h3{
 	font-size: 1.3em;
-	color: black;
 }
 
 h4{
 	font-size: 1em;
-	color: black;
 }
 
 #basic_info {
-	padding: 10px;
-	margin: 20px;
+	border-bottom: 1px solid black;
+	text-align : center;
 }
 
-#education {
-
+#contact_info {
+	list-style : none;
+	margin : 1em;
 }
 
-#work_experience {
-
+#contact_info li { 
+	display : inline;
+	margin : 20px;
 }
 
-#extracurriculars {
+#qualifications {
+	width : 60em;
+	margin : auto;
+	line-height : normal;
+}
 
+#qualifications section {
+	margin : 2em 0 2em 0;
+}
+
+#qualifications article {
+	margin : 1.5em 0 1.5em 0;
+}
+
+#qualifications li {
+	margin : 1em 0 1em 0;
 }
