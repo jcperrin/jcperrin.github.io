@@ -1,0 +1,32 @@
+body {
+	font-size: 14px;
+	color: rgba( 256, 256, 256, .5);
+	background: black;
+}
+
+a {
+	color : rgba( 256, 256, 256, .5);
+}
+
+a:hover { 
+	border-bottom: 1px solid white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: rgba( 256, 256, 256, .05);
+}
+
+h1 { 
+	font-size : 15em;
+}
+
+#landing_element {
+	width : 50%;
+	margin : 10em auto;
+	text-align : center;
+}
+
+#landing_element li {
+	display : inline;
+	margin : 3em;
+}

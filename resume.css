@@ -1,17 +1,12 @@
 
 body {
-	font-size: 12px;
-	font-family: monospace, serif;
 	color: rgba( 0, 0, 0, .9);
 	background: #efebe9;
-	padding: 0;
 }
 
 a {
 	/*transition : .5s;*/
 	color : rgba( 0, 0, 0, .9);
-	text-decoration : none;
-	border-bottom: 0px;
 }
 
 a:hover { 
@@ -19,28 +14,16 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Helvetica, sans-serif;
-	color: rgba( 0, 0, 0, .5);
-	font-weight : bold;
 	margin : 5px 0 0 0;
+	color: rgba( 0, 0, 0, .5);
 }
 
 h1{
-	font-size: 2em;
 	margin : 2em;
 }
 
 h2{
-	font-size: 1.5em;
 	text-align: center;
-}
-
-h3{
-	font-size: 1.3em;
-}
-
-h4{
-	font-size: 1em;
 }
 
 header {
